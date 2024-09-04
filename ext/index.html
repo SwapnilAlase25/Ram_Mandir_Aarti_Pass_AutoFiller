@@ -1,0 +1,218 @@
+<html style="height: 300px; width: 400px">
+    <head>
+        <link rel="stylesheet" href="../libs/bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    </head>
+
+    <body style="height: 300px; width: 400px; background-color: F8F8F8;">
+        <header style="background-color:white; overflow: hidden; position: fixed; top: 0; width: 100%; z-index: 1;">
+            <h3 class="float-md-start mb-0" style="text-align: center; margin: 20px;">Ram Mandir Aarti Pass AutoFiller</h3>
+        </header>
+            
+        <div style="margin-top: 50px; margin-left: 10px; margin-right: 10px;">
+            <!-- Buttons -->
+            <div style="text-align: center; margin-top: 70px; margin-bottom:10px">
+                <!-- Auto fill -->
+                <button class="btn btn-primary" id="auto-fill">Auto Fill</button>
+
+                <!-- Reset fields -->
+                <button class="btn btn-primary" id="reset-fields">Reset Fields</button>
+
+                <!-- Save fields -->
+                <button class="btn btn-primary" id="save">Save</button>
+
+                <!-- Load fields -->
+                <button class="btn btn-primary" id="load">Load</button>
+                <script src="script.js"></script>
+            </div>
+
+            <!-- Input fields -->
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Name1</span>
+                <input type="text" id="name1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Age1</span>
+                <input type="text" id="age1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Gender1</span>
+                <select id="genderDropdown1" class="gender-dropdown">
+                    <option value="" selected>Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select> 
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">ID Proof Type1</span>
+                <select id="ProofDropdown1" class="Proof-dropdown">
+                    <option value="" selected>Select</option>
+                    <option value="Aadhar">Aadhar</option>
+                    <option value="Passport">Passport</option>
+                </select> 
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">ID Proof Number1</span>
+                <input type="text" id="aadhar1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            
+            <hr>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Name2</span>
+                <input type="text" id="name2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Age2</span>
+                <input type="text" id="age2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Gender2</span>
+                <select id="genderDropdown2" class="gender-dropdown">
+                    <option value="" selected>Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select> 
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">ID Proof Type2</span>
+                <select id="ProofDropdown2" class="Proof-dropdown">
+                    <option value="" selected>Select</option>
+                    <option value="Aadhar">Aadhar</option>
+                    <option value="Passport">Passport</option>
+                </select> 
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">ID Proof Number2</span>
+                <input type="text" id="aadhar2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            
+            <hr>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Name3</span>
+                <input type="text" id="name3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Age3</span>
+                <input type="text" id="age3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Gender3</span>
+                <select id="genderDropdown3" class="gender-dropdown">
+                    <option value="" selected>Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select> 
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">ID Proof Type3</span>
+                <select id="ProofDropdown3" class="Proof-dropdown">
+                    <option value="" selected>Select</option>
+                    <option value="Aadhar">Aadhar</option>
+                    <option value="Passport">Passport</option>
+                </select> 
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">ID Proof Number3</span>
+                <input type="text" id="aadhar3" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            
+            <hr>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Name4</span>
+                <input type="text" id="name4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Age4</span>
+                <input type="text" id="age4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Gender4</span>
+                <select id="genderDropdown4" class="gender-dropdown">
+                    <option value="" selected>Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select> 
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">ID Proof Type4</span>
+                <select id="ProofDropdown4" class="Proof-dropdown">
+                    <option value="" selected>Select</option>
+                    <option value="Aadhar">Aadhar</option>
+                    <option value="Passport">Passport</option>
+                </select> 
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">ID Proof Number4</span>
+                <input type="text" id="aadhar4" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            
+            <hr>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Address 1</span>
+                <input type="text" id="add1" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Address 2</span>
+                <input type="text" id="add2" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+            
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Country</span>
+                <input type="text" id="country" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+
+                <span class="input-group-text" id="inputGroup-sizing-sm">State</span>
+                <input type="text" id="state" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">District</span>
+                <input type="text" id="district" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+
+                <span class="input-group-text" id="inputGroup-sizing-sm">City</span>
+                <input type="text" id="city" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Pincode</span>
+                <input type="text" id="pincode" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Mobile Number</span>
+                <input type="text" id="mobilenumber" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+            <div class="input-group input-group-sm mb-3">
+                <span class="input-group-text" id="inputGroup-sizing-sm">Email ID</span>
+                <input type="text" id="emailid" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+            </div>
+
+        <div style="margin: 10px; color: white">
+            <br>
+        </div>
+
+    </body>
+</html>
