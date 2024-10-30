@@ -1,6 +1,6 @@
 {
     "name": "Ram Mandir Aarti Pass AutoFiller",
-    "version": "2.0",
+    "version": "2.1",
     "manifest_version": 3,
     "action": {
         "default_popup": "ext/index.html"

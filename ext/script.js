@@ -169,7 +169,6 @@ document.getElementById("load").addEventListener("click", () => {
 		document.getElementById('add2').value = result.address2;
 		document.getElementById('city').value = result.city;
 		document.getElementById('pincode').value = result.pincode;
-		// console.log(`--$$------------------Name:  ${result.name}`);
-        // console.log(`--$$-----------------age:  ${result.age}`);
+		// console.log(`--$$-----Name:  ${result.name}`);
 	});
 });
